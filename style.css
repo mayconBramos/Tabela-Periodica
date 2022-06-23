@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+button{
+    position: sticky;
+    float: right;
+    top: 20px;
+    width: 80px;
+    height:40px;
+    margin: 20px;
+    font-size: 15px;
+    border: 1px solid #00a2ff;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    background-color: black;  
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-family:'Encode Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+td {
+    background-color: #000000;
+    border-radius: 5px;
+    width: 60px;    
+}
+
+.principal td:hover{
+    transform: scale(1.5);
+}
+
+.itens-separados td:hover {
+    transform: scale(1.5);
+}
+
+.lacuna {
+    background-color: transparent;    
+    border: none;
+}
+
+.itens-separados{
+    margin-top: 10px;
+}
+
+.num_Atomico {
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.letra_Elemento {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 0px 15px 2px 15px;
+}
+
+.massa_Atomica {
+    display: block;
+    text-align: center;
+    font-size: 8px;
+    padding: 0px 10px 2px 10px;
+}
+
+.n-metais { 
+    color: greenyellow;
+    border: 1px solid greenyellow;    
+}
+
+.metais-alcalinos {
+    color: orange;
+    border: 1px solid orange;
+}
+
+.metais-terrosos {
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+.metais-transicao {
+    color: #e77878;
+    border: 1px solid #e77878;
+}
+
+.halogênios {
+    
+    color: #7BDEE5;
+    border: 1px solid #7BDEE5;
+}
+
+.actinideos {
+    color: #D49BCD;
+    border: 1px solid #D49BCD;
+}
+
+.outros-metais {
+    color: #91BDCB;
+    border: 1px solid #91BDCB;
+}
+
+.semi-metais {
+    color: #44A69C;
+    border: 1px solid #44A69C;
+}
+
+.lantanideos {
+    color: #70CBEB;
+    border: 1px solid #70CBEB;
+}
+
+.gases-nobres {
+    color: #3D9EE3;
+    border: 1px solid #3D9EE3;
+}
+
+h5{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.legenda{
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+
+.legenda td{
+    width: 60px;
+}
+
+.legenda .lacuna{
+    width: 10px;
+}
+
+.n-metais-leg {
+    color: greenyellow;
+    border: 2px solid greenyellow;
+}
+
+.gases-nobres-leg {
+    color: #3D9EE3;
+    border: 2px solid #3D9EE3;
+}
+
+.metais-alcalinos-leg {
+    color: orange;
+    border: 2px solid orange;
+}
+
+.metais-terrosos-leg {
+    color: yellow;
+    border: 2px solid yellow;
+}
+
+.semi-metais-leg {
+    color: #44A69C;
+    border: 2px solid #44A69C;
+}
+
+.halogênios-leg {
+    color: #7BDEE5;
+    border: 2px solid #7BDEE5;
+}
+
+.outros-metais-leg {
+    color: #91BDCB;
+    border: 2px solid #91BDCB;
+}
+
+.metais-transicao-leg {
+    color:#e77878;
+    border: 2px solid #e77878;
+}
+
+.lantanideos-leg {
+    color:  #70CBEB;
+    border: 2px solid #70CBEB;
+}
+
+.actinideos-leg {
+    color: #D49BCD;
+    border: 2px solid #D49BCD;
+}
+
+.lista-elementos{   
+    align-items: center;
+    width: 800px;
+    margin: 80px auto;
+    color: white;
+}
+
+.lista-elementos th{
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+
+.lista-elementos tr{
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.lista-elementos td{
+    height: 100px;
+    color: white;
+}
+
